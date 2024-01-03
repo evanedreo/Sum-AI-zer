@@ -3,7 +3,7 @@ import { logo } from "../assets";
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
-      <nav className="flex justify-between items-center w-full mb-10 pt-3">
+      <nav className="flex justify-between items-center w-full pt-3">
         <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
 
         <button
@@ -22,7 +22,7 @@ const Hero = () => {
         <span className="orange_gradient ">OpenAI GPT-4</span>
       </h1>
       <h2 className="desc">
-        Save your time reading an article, a free tool for summarizing articles, making long texts brief and straightforward.
+        Save your time reading an article, a free tool for summarizing articles, making long texts brief and straightforward. <i className="text-white">Please wait for around 10 seconds</i>
       </h2>
     </header>
   );
